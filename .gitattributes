@@ -1,0 +1,23 @@
+# Keep shell scripts LF no matter what the local git config says,
+# and never let git touch binary assets.
+* text=auto
+
+*.sh    text eol=lf
+gradlew text eol=lf
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.jar  binary
+*.apk  binary
+*.aab  binary
+*.ipa  binary
+*.m4a  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.webm binary

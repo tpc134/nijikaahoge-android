@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.hprof
+.kotlin/
+captures/
+.cxx/
+
+# Local SDK path — machine-specific, must not be committed
+local.properties
+
+# Signing material
+*.jks
+*.keystore
+
+# Python (tools/)
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+hs_err_pid*
