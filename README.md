@@ -40,14 +40,14 @@
 
 | 产物 | 体积 | 说明 |
 | --- | ---: | --- |
-| `app-release.apk` | 2.36 MB | release，已签名，安装用 |
+| `app-release_v1.2.apk` | 2.36 MB | release，已签名，安装用 |
 | `app-debug.apk` | 2.62 MB | debug，支持 ADB 调试指令，不推荐日常使用 |
 
 校验值（SHA-256）：
 
 ```
-app-release.apk  d56b8c45f76dc833ea5033660166ff50be6463a3699eef4331863a9f17d54bc6
-app-debug.apk    e77a0794578e3bf473352cc5f6a706d87e68e6fa1bb5a1369daa8f41cfb42f40
+app-release_v1.2.apk  d56b8c45f76dc833ea5033660166ff50be6463a3699eef4331863a9f17d54bc6
+app-debug.apk         e77a0794578e3bf473352cc5f6a706d87e68e6fa1bb5a1369daa8f41cfb42f40
 ```
 
 重新构建后 APK 内容会变化，需重新计算校验值。

@@ -42,14 +42,14 @@
 
 | 成果物 | サイズ | 説明 |
 | --- | ---: | --- |
-| `app-release.apk` | 2.36 MB | release、署名済み。通常はこちらを使用 |
+| `app-release_v1.2.apk` | 2.36 MB | release、署名済み。通常はこちらを使用 |
 | `app-debug.apk` | 2.62 MB | debug、ADB デバッグコマンド対応。日常利用には非推奨 |
 
 SHA-256:
 
 ```
-app-release.apk  d56b8c45f76dc833ea5033660166ff50be6463a3699eef4331863a9f17d54bc6
-app-debug.apk    e77a0794578e3bf473352cc5f6a706d87e68e6fa1bb5a1369daa8f41cfb42f40
+app-release_v1.2.apk  d56b8c45f76dc833ea5033660166ff50be6463a3699eef4331863a9f17d54bc6
+app-debug.apk         e77a0794578e3bf473352cc5f6a706d87e68e6fa1bb5a1369daa8f41cfb42f40
 ```
 
 再ビルドすると APK の内容が変わるため、チェックサムは再計算が必要です。

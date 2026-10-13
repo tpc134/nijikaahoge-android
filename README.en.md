@@ -43,14 +43,14 @@ contains no APK).
 
 | Artifact | Size | Notes |
 | --- | ---: | --- |
-| `app-release.apk` | 2.36 MB | release, signed — use this one |
+| `app-release_v1.2.apk` | 2.36 MB | release, signed — use this one |
 | `app-debug.apk` | 2.62 MB | debug, supports ADB debug commands, not recommended for daily use |
 
 SHA-256:
 
 ```
-app-release.apk  d56b8c45f76dc833ea5033660166ff50be6463a3699eef4331863a9f17d54bc6
-app-debug.apk    e77a0794578e3bf473352cc5f6a706d87e68e6fa1bb5a1369daa8f41cfb42f40
+app-release_v1.2.apk  d56b8c45f76dc833ea5033660166ff50be6463a3699eef4331863a9f17d54bc6
+app-debug.apk         e77a0794578e3bf473352cc5f6a706d87e68e6fa1bb5a1369daa8f41cfb42f40
 ```
 
 Rebuilding changes the APK contents, so the checksums must be recomputed.
