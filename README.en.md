@@ -31,7 +31,8 @@ renderer and audio in **Kotlin**, swaps physics to **jBox2D 2.2.1.1**, and draws
 ## Gameplay
 
 Pull the ahoge out of Nijika's head and let them fall into the bag to collect them. Feeding a bag to
-Ryo or Kita triggers different reactions, and a full gold bag summons the big Bocchi celebration.
+Ryo or Kita triggers different reactions, and a full gold bag summons Niji (Bocchi's little sister)
+to celebrate.
 Reaching **10 / 50 / 100 / 500 / 1000 / 5000** points fires a milestone easter egg, and Seika flies in
 from four directions. The launch orientation follows the device default; after 1.5 s the view rotates
 freely with the sensor. Both portrait and landscape work.
@@ -168,7 +169,7 @@ adb shell am instrument -w com.ruich97.nijikaahoge.test/android.test.Instrumenta
   the collision position.
 - The small Bocchi is explicitly woken before being teleported back; on release, linear and angular
   velocity are zeroed and the last drag position is synced; particles are restored to the original
-  layers (Ryo / Kita on layer 3, big Bocchi / Seika on layer 5).
+  layers (Ryo / Kita on layer 3, Niji / Seika on layer 5).
 - Finger input gets roughly **12 dp of tolerance** around the pullable ahoge polygon (capped at 96
   logical pixels). Directly hit bags and debris still take priority; mouse and stylus keep exact hit
   testing.
